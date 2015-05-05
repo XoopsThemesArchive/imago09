@@ -1,0 +1,84 @@
+@charset "gb2312";
+/*####################################################
+    COLOR CSS：全局颜色样式文件
+	布景名称：IMAGO09 BLOG风格版
+	发布站点：http://www.imagocn.net/theme/
+	站点名称：IMAGO:THEMES 
+	制作者：MACLINKS
+	发布日期：2005.01.10
+	联系方式: maclinks@imagocn.net
+	说明：如果您修改了我们的样式风格，请保留该处信息
+	      以示对我们的支持！
+	声明：该布景仅限用于个人及公益网站，商业站点请与
+	      我们联系商业授权事宜。
+  ###################################################*/
+  
+/* -----[   默认CLASS  ]-----*/
+hr { color:#99B5CC;}
+body {	color:#000000;}
+a { color: #3F627E; }
+a:hover { color: #000000;}
+td { color: #000000; }
+li { color: #666666; }
+th { background-color: #3C5F84; color:#FFFFFF;}
+th a{ color: #FFFFFF;}
+  
+/* -----[   页面颜色  ]-----*/
+.pageWidth{ background-color:#EFEFEF;}
+.pageHeader{ background-image:url(../images/header_bg.jpg);	background-repeat:repeat-x; background-color:#FFFFFF; }
+.pageNavMenu{ background-color: #9AB6C9; color: #99B5CC; background-image:url(../images/navmenu_bg.jpg); background-repeat:repeat-x; }
+.pageTitle{	color:#3C5F84; }
+.pageFooter{ background-color: #99B5CC; color: #FFFFFF; }
+
+/* -----[   自定义横式菜单颜色  ]-----*/
+.pageNavMenu a{	color: #3C5F84;	}
+.pageNavMenu a:hover{	color: #FFFFFF;	}
+
+/* -----[   区块颜色  ]-----*/
+#blockCenter{ background-color:#FFFFFF;}
+
+.blockLeftTitle{ color: #FFFFFF; background-color: #99B5CC;	}
+.blockLeftContent{ }
+
+.blockCenterLTitle{	color: #FFFFFF; background-color: #99B5CC; }
+.blockCenterLContent{ border-right-color: #99B5CC; border-bottom-color: #99B5CC; border-left-color: #99B5CC; background-color:#F7F7F7; }
+
+.blockCenterCTitle{	color: #FFFFFF;	background-color: #99B5CC; }
+.blockCenterCContent{ border-right-color: #99B5CC; border-bottom-color: #99B5CC; border-left-color: #99B5CC; background-color:#F7F7F7; }
+
+.blockCenterRTitle{ color: #FFFFFF; background-color: #99B5CC; }
+.blockCenterRContent{ border-right-color: #99B5CC; border-bottom-color: #99B5CC; border-left-color: #99B5CC; background-color:#F7F7F7;}
+
+.blockRightTitle{ color: #FFFFFF; background-color: #99B5CC; }
+.blockRightContent{ }
+
+/* -----[   主要菜单颜色  ]-----*/
+#mainmenu a { border-bottom-color: #D8E2EB; }
+#mainmenu a:hover {	background: #D8E2EB;}
+
+/* -----[   用户菜单颜色  ]-----*/
+#usermenu a { border-bottom-color: #D8E2EB;}
+#usermenu a:hover { background: #D8E2EB;}
+
+/* -----[   代码与引用  ]-----*/
+div.xoopsCode { background: #FCFCFC; border: #0D3F72; color: #0D3F72; }
+div.xoopsQuote { background: #FCFCFC; border: #0D3F72; color: #0D3F72; }
+
+/* -----[   模组全局  ]-----*/
+.item {	border:#99B5CC;}
+.itemHead {	background-color: #99B5CC; color: #FFFFFF;	border-bottom:1px solid #99B5CC; }
+.itemTitle a { color: #FFFFFF; background-color: transparent; }
+.itemTitle a:hover { color: #333333; background-color: transparent; }
+
+/* -----[   评论(论坛)全局  ]-----*/
+.comUserStat {color: #2F5376; border: silver; background-color: #ffffff; }
+.comUserStatus {color: #2F5376;}
+
+/* -----[   表格颜色  ]-----*/
+.outer { background-color: #FFFFFF; }
+.head {	background-color: #99B5CC; }
+.even {background-color: #D8E2EB; }
+.odd {background-color: #F7F7F7; }
+.foot {	background-color: #99B5CC; }
+tr.even td {background-color: #D8E2EB; }
+tr.odd td {background-color: #F7F7F7; }

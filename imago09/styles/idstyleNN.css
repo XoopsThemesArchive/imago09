@@ -1,0 +1,161 @@
+@charset "gb2312";
+/*####################################################
+    IDSTYLENN CSS：定位样式文件
+	布景名称：IMAGO09 BLOG风格版
+	发布站点：http://www.imagocn.net/theme/
+	站点名称：IMAGO:THEMES 
+	制作者：MACLINKS
+	发布日期：2005.01.10
+	联系方式: maclinks@imagocn.net
+	说明：如果您修改了我们的样式风格，请保留该处信息
+	      以示对我们的支持！
+	声明：该布景仅限用于个人及公益网站，商业站点请与
+	      我们联系商业授权事宜。
+  ###################################################*/
+  
+  
+
+/*----[ 页面定位 ]-----*/
+.pageWidth{	width:100%;	}
+.pageHeader{ width:100%; height:81px; }
+.pageNavMenu{ text-align: center; padding-top:4px;	padding-bottom:4px;	}
+.pageTitle{	font-weight:bold; padding:5px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+.pageCenter{}
+.pageFooter{
+	width:100%;
+	padding-top:8px;
+	padding-bottom:8px;
+	text-align: center;
+	font-weight: bold;
+	clear: both;
+	float: none;
+}
+
+/*-----[ 页面宽度 ]-----*/
+
+
+/*-----[ 页首定位 ]-----*/
+#pageHeaderLogo{ width: 240px;float: left;}
+#pageHeaderBanner{ text-align: center; padding-top: 10px;}
+#pageHeaderSearch{}
+
+
+/*-----[ 自定菜单 ]-----*/
+.pageNavMenu a{ font-weight:bold;}
+.pageNavMenu a:hover{ }
+
+
+/*-----[ 页面主体 ]-----*/
+/* 区块总体 */
+#blockLeft{
+	width: 175px;
+	position: absolute;
+	left:0px;
+}
+#blockCenter{
+	padding-left:10px;
+	padding-right:10px;
+	margin-left:175px;
+	margin-right:175px;
+}
+
+#blockCenterL{float: left;  width:49%; }
+#blockCenterC{ width:100%;}
+#blockCenterR{  float: right; width:49%; }
+#blockRight{ width:175px; position: absolute; right:0px;}
+#blockHeightSpace{ padding-top:5px;}
+/* 左区块 */
+.blockLeftTitle{ font-weight: bold;	padding: 4px; }
+.blockLeftContent{ padding:4px; }
+
+/* 右区块 */
+.blockCenterLTitle{	font-weight: bold; padding: 4px; }
+.blockCenterLContent{ padding:4px; border-right-width: 1px;	border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; }
+
+/* 中中区块 */
+.blockCenterCTitle{ font-weight: bold; padding: 4px; }
+.blockCenterCContent{ padding:4px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; }
+
+/* 中左区块 */
+.blockCenterRTitle{	font-weight: bold; padding: 4px; }
+.blockCenterRContent{ padding:4px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; }
+
+/* 中右区块 */
+.blockRightTitle{ font-weight: bold; padding: 4px; }
+.blockRightContent{	padding:4px; }
+
+/* 主要内容 */
+#mainContent{	text-align: left; padding:5px; clear: both;}
+#mainContent td{}
+
+/*-----[ 页脚定位 ]-----*/
+
+
+/*-----[ 主要菜单 ]-----*/
+#mainmenu a { padding: 2px 2px 2px 0px; border-bottom-style: solid; border-bottom-width: 1px; font-weight:bold; }
+#mainmenu a:hover {}
+#mainmenu a.menuTop { padding-left: 10px;}
+#mainmenu a.menuMain { padding-left: 10px;}
+#mainmenu a.menuSub { font-weight:normal; padding-left: 22px;}
+
+/*-----[ 用户菜单 ]-----*/
+#usermenu a { padding: 2px 2px 2px 0px; border-bottom-style: solid; border-bottom-width: 1px; font-weight:bold; padding-left:10px;}
+#usermenu a:hover {}
+#usermenu a.menuTop {}
+#usermenu a.highlight {}
+
+
+
+/*-----[ 消息 ]-----*/
+div.errorMsg { background-color: #FFCCCC; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.confirmMsg { background-color: #DDFFDF; color: #136C99; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.resultMsg { background-color : #CCCCCC; color: #333333; text-align: center; border-top: 1px solid silver; border-left: 1px solid silver; font-weight: bold; border-right: 1px solid #666666; border-bottom: 1px solid #666666; padding: 10px;}
+
+
+/*-----[ 代码与引用 ]-----*/
+div.xoopsCode {	width:400px; border: 1px dotted; padding: 24px;	overflow-x: auto;}
+div.xoopsQuote { border: 1px dotted; padding: 0px 6px 6px 6px; }
+
+/*-----[ 模组全局 ]-----*/
+.item {	border: 1px solid; }
+.itemHead {	font-weight: bold; border-bottom:1px solid; padding: 2px 2px 2px 4px;}
+.itemTitle a {	text-decoration: none;	font-weight: bold;	}
+.itemTitle a:hover { text-decoration: none; }
+.itemInfo {	padding: 2px 2px 2px 4px;}
+.itemPoster {}
+.itemPostDate {}
+.itemStats {}
+.itemBody { padding:5px;}
+.itemText {line-height: 150%;}
+.itemText a{ font-weight: bold;}
+.itemBody a{ font-weight: bold; }
+.itemText:first-letter {}
+.itemFoot {	text-align: right; padding: 2px 4px 2px 4px;}
+.itemFoot a{}
+.itemAdminLink {}
+.itemPermaLink {}
+
+/*-----[ 评论(论坛)全局 ]-----*/
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat { font-weight:bold; border: 1px solid silver; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px;font-weight:bold; }
+.comUserRank {margin: 2px;}
+.comUserRankText {font-weight:bold;}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; }
+.comDateCaption {font-weight: bold; font-style: normal;}
+
+
+
+/*-----[ 表格交替 ]-----*/
+.outer {}
+.head {	padding: 4px; font-weight: bold; vertical-align: middle;}
+.even { padding: 4px;}
+.odd { padding: 4px;}
+.foot {	padding: 4px;}
+tr.even td { padding: 4px;}
+tr.odd td { padding: 4px;}

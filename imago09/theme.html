@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<{$xoops_langcode}>" lang="<{$xoops_langcode}>">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta http-equiv="content-language" content="<{$xoops_langcode}>" />
+<meta name="robots" content="<{$xoops_meta_robots}>" />
+<meta name="keywords" content="<{$xoops_meta_keywords}>" />
+<meta name="description" content="<{$xoops_meta_description}>" />
+<meta name="rating" content="<{$xoops_meta_rating}>" />
+<meta name="author" content="<{$xoops_meta_author}>" />
+<meta name="copyright" content="<{$xoops_meta_copyright}>" />
+<meta name="generator" content="XOOPS" />
+<title><{$xoops_sitename}>-<{$xoops_pagetitle}></title>
+<link href="<{$xoops_url}>/favicon.ico" rel="SHORTCUT ICON" />
+<link rel="stylesheet" type="text/css" media="screen" href="<{$xoops_url}>/xoops.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="<{$xoops_themecss}>" />
+
+<script type="text/javascript">
+<!--
+<{$xoops_js}>
+//-->
+</script>
+
+
+<{$xoops_module_header}>
+
+</head>
+<body>
+<!--
+####################################################
+    THEMES HTML：XOOPS布景主文件
+	布景名称：IMAGO09 BLOG风格版
+	发布站点：http://www.imagocn.net/theme/
+	站点名称：IMAGO:THEMES 
+	制作者：MACLINKS
+	发布日期：2005.01.10
+	联系方式: maclinks@imagocn.net
+	说明：如果您修改了我们的样式风格，请保留该处信息
+	      以示对我们的支持！
+	声明：该布景仅限用于个人及公益网站，商业站点请与
+	      我们联系商业授权事宜。
+####################################################
+-->
+<!-- 页面宽度开始 -->
+	<div class="pageWidth">
+
+
+<!-- 页首定位开始 -->
+	<div class="pageHeader">
+		<!-- 站点标志 -->	
+		<div id="pageHeaderLogo"><a href="<{$xoops_url}>/"><img src="<{$xoops_imageurl}>images/logo.jpg" alt="<{$xoops_sitename}>" align="middle" /></a></div>
+     	<!-- 广告条 -->
+		<div id="pageHeaderBanner"><{$xoops_banner}></div>
+	</div>
+<!-- 页首定位结束 -->
+
+<!-- 横式菜单开始 -->	
+	<div class="pageNavMenu">
+		<!-- 插入菜单文件 -->
+		<{include file="imago09/blocks/theme_navmenu.html"}>
+	</div>
+<!-- 横式菜单结束 -->
+
+
+<!-- 主要内容开始 -->
+	<div class="pageCenter">
+	
+		<{if $xoops_lblocks}>
+		<div id="blockLeft">
+			<!-- 显示左区块内容开始 -->
+			<{foreach item=block from=$xoops_lblocks}>
+			<{include file="imago09/blocks/theme_block_left.html"}>
+			<{/foreach}>
+       		<!-- 显示左区块内容结束 -->
+		</div>
+		<{/if}>
+		
+	
+		<{if $xoops_rblocks}>
+		<div id="blockRight">
+			<!-- 显示右区块开始 -->
+			<{foreach item=block from=$xoops_rblocks}>
+			<{include file="imago09/blocks/theme_block_right.html"}>
+			<{/foreach}>
+       		<!-- 显示右区块结束 -->
+		</div>
+		<{/if}>
+		
+		
+	
+		<div id="blockCenter">
+			<!-- 显示中央区块开始 -->
+			<div class="pageTitle"><{$xoops_sitename}> - <{$xoops_pagetitle}><hr /></div>
+			<{if $xoops_showcblock == 1}>
+
+				<!-- 显示中中区块开始 -->
+				<div id="blockCenterC">
+				<{foreach item=block from=$xoops_ccblocks}>
+				<{include file="imago09/blocks/theme_block_centerc.html"}>
+				<{/foreach}>
+				</div>
+				<!-- 显示中中区块结束 -->
+
+				<!-- 显示中左区块开始 -->
+				<div id="blockCenterL">
+				<{foreach item=block from=$xoops_clblocks}>
+				<{include file="imago09/blocks/theme_block_centerl.html"}>
+				<{/foreach}>
+				</div>
+        		<!-- 显示中左区块结束 -->
+
+				<!-- 显示中右区块开始 -->
+				<div id="blockCenterR">
+				<{foreach item=block from=$xoops_crblocks}>
+				<{include file="imago09/blocks/theme_block_centerr.html"}>
+				<{/foreach}>
+				</div>
+        		<!-- 显示中右区块结束 -->
+			<{/if}>
+		
+			<!-- 显示主要内容开始 -->
+			<div id="mainContent"> <{$xoops_contents}> </div>
+			<!-- 显示主要内容结束 -->
+			
+		</div>
+		<!-- 显示中央区块结束 -->
+
+	</div>
+<!-- 主要内容结束 -->	
+
+<!-- 页脚定位开始 -->
+	<div class="pageFooter"><{$xoops_footer}><br />
+      Design by <a href="http://www.imagocn.net/theme/" target="_blank" title="Go to iMAGO:THEMES">iMAGO:THEMES</a></div>
+<!-- 页脚定位结束 -->
+
+</div>
+<!-- 页面宽度结束 -->
+</body>
+</html>
